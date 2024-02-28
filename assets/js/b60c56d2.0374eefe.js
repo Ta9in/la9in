@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkla_9_in=self.webpackChunkla_9_in||[]).push([[5398],{7398:l=>{l.exports=JSON.parse('{"permalink":"/la9in/blog/tags/hola","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
