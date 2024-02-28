@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkla_9_in=self.webpackChunkla_9_in||[]).push([[6944],{58:a=>{a.exports=JSON.parse('{"label":"docusaurus","permalink":"/la9in/en/blog/tags/docusaurus","allTagsPath":"/la9in/en/blog/tags","count":4,"unlisted":false}')}}]);

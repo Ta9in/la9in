@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkla_9_in=self.webpackChunkla_9_in||[]).push([[8127],{8890:a=>{a.exports=JSON.parse('{"label":"hola","permalink":"/la9in/en/blog/tags/hola","allTagsPath":"/la9in/en/blog/tags","count":1,"unlisted":false}')}}]);
