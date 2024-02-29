@@ -171,23 +171,23 @@ Then, To enable Arabic support in Neovim, you have three methods:
 
 You can set any Arabic font you prefer when writing in Neovim by typing:
 
-::: center
+
     :set guifont=your_ARABIC_FONT
-:::
+
 
 For example, if you wish to use Amiri with a size of 11, enter the
 following command:
 
-::: center
+
     :set guifont=Amiri:h11
-:::
+
 
 However, this command may not work if you are using nvim-qt. In this
 case, use the following command to resolve the issue:
 
-::: center
+
     :Guifont! Amiri:h11
-:::
+
 
 Before utilizing any font, ensure that it is successfully installed on
 your Windows system.
