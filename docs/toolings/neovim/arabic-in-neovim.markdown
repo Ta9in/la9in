@@ -206,26 +206,14 @@ terminals on Windows. Below is a summary of my findings:
 
 | Terminal   | Observations                                                                                                                      |
 |------------|-----------------------------------------------------------------------------------------------------------------------------------|
-| Hyper      | - Arabic displays well with default monospace fonts like Menlo, "DejaVu Sans Mono", Consolas, and "Lucida Console", as well as with the Arabic monospace font Kwakab Mono. 
-- Some Arabic fonts like Amiri and Cairo introduce spacing issues.
-- Lacks bidirectional support (English words may appear reversed).
-- Configuration is straightforward: open the configuration file using 'CTRL- ,' ![Hyper](images/hyper.png) |
-| Cmder      | - Arabic appears perfectly in the terminal itself, but when using nvim, it displays question marks instead of Arabic letters. Even when Arabic letters are displayed, the shape may be distorted, resembling cmd and PowerShell behavior.
-- Changing the font to Courier and setting the font charset to Arabic improves Arabic display significantly.
-- Configuration is simple: right-click on the title bar at the top of the Cmder window, select "Settings" from the context menu. ![Cmder](images/Cmdercourier.png) ![Cmder](images/cmdernvim.png) |
-| Cmd & PowerShell | - Only a few fonts display Arabic characters in cmd: Courier, which is the best option, Simplified Arabic Fixed, though some letters may appear as rectangular symbols, and Kawkab Mono.
-- Configuration is straightforward, with limited options available.
-- Only monospace fonts are supported.
--  Bidirectional support is lacking. ![Cmd & PowerShell](images/cmdcourier.png) |
-| Neovim QT  | - Arabic characters display well with monospace fonts, particularly with Courier, showcasing a good shape.
-- However, when using Arabic fonts, there are noticeable spaces between letters. Among the Arabic fonts tested, only Kwakab Mono, a monospace font, renders perfectly.
-- Bidirectional text support is lacking.
--  Configuration is straightforward, primarily relying on commands for customization. ![Neovim QT](images/nvimqt.png) ![Neovim QT](images/droidkufi.png) |
-| mlterm     | - Arabic characters are rendered elegantly with monospace fonts, notably with Kawkab Mono and Droid Arabic Kufi.
- - One standout feature of mlterm is its bidirectional text support, allowing seamless integration of English text within Arabic text without any word inversions, unlike other terminals.
- -  Configuration is easy and intuitive. Accessing the configuration menu is as simple as typing 'CTRL' and clicking the right button of the mouse. ![mlterm](images/mlterm.png) |
+| Hyper      | - Arabic displays well with default monospace fonts like Menlo, "DejaVu Sans Mono", Consolas, and "Lucida Console", as well as with the Arabic monospace font Kwakab Mono. - Some Arabic fonts like Amiri and Cairo introduce spacing issues. - Lacks bidirectional support (English words may appear reversed). - Configuration is straightforward: open the configuration file using 'CTRL- ,' ![Hyper](images/hyper.png) |
+| Cmder      | - Arabic appears perfectly in the terminal itself, but when using nvim, it displays question marks instead of Arabic letters. Even when Arabic letters are displayed, the shape may be distorted, resembling cmd and PowerShell behavior. - Changing the font to Courier and setting the font charset to Arabic improves Arabic display significantly. - Configuration is simple: right-click on the title bar at the top of the Cmder window, select "Settings" from the context menu. ![Cmder](images/Cmdercourier.png) ![Cmder](images/cmdernvim.png) |
+| Cmd & PowerShell | - Only a few fonts display Arabic characters in cmd: Courier, which is the best option, Simplified Arabic Fixed, though some letters may appear as rectangular symbols, and Kawkab Mono. - Configuration is straightforward, with limited options available. - Only monospace fonts are supported. - Bidirectional support is lacking. ![Cmd & PowerShell](images/cmdcourier.png) |
+| Neovim QT  | - Arabic characters display well with monospace fonts, particularly with Courier, showcasing a good shape. - However, when using Arabic fonts, there are noticeable spaces between letters. Among the Arabic fonts tested, only Kwakab Mono, a monospace font, renders perfectly. - Bidirectional text support is lacking. - Configuration is straightforward, primarily relying on commands for customization. ![Neovim QT](images/nvimqt.png) ![Neovim QT](images/droidkufi.png) |
+| mlterm     | - Arabic characters are rendered elegantly with monospace fonts, notably with Kawkab Mono and Droid Arabic Kufi. - One standout feature of mlterm is its bidirectional text support, allowing seamless integration of English text within Arabic text without any word inversions, unlike other terminals. - Configuration is easy and intuitive. Accessing the configuration menu is as simple as typing 'CTRL' and clicking the right button of the mouse. ![mlterm](images/mlterm.png) |
 
 *Table 1: Summary of Observations on Arabic in Windows Terminals*
+
 
 
 In summary, after examining how different terminals handle Arabic text,
