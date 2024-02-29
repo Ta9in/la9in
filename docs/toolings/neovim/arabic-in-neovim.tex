@@ -168,14 +168,30 @@ I have observed various behaviors of Arabic text rendering in different terminal
         \item Some Arabic fonts like Amiri and Cairo introduce spacing issues.
         \item Lacks bidirectional support (English words may appear reversed).
         \item Configuration is straightforward: open the configuration file using 'CTRL- ,'.
-    \end{itemize} \\
+    \end{itemize}
+    This picture shows the results of writing arabic in hyper with 'Courier' monospace font:\newline
+ 
+
+    \includegraphics[width=10cm]{images/hyper.png}
+
+\\
     \hline
     \centering Cmder &
     \begin{itemize}
         \item Arabic appears perfectly in the terminal itself, but when using nvim, it displays question marks instead of Arabic letters. Even when Arabic letters are displayed, the shape may be distorted, resembling cmd and PowerShell behavior.
         \item Changing the font to Courier and setting the font charset to Arabic improves Arabic display significantly.
         \item Configuration is simple: right-click on the title bar at the top of the Cmder window, select "Settings" from the context menu.
-    \end{itemize} \\
+    \end{itemize}
+
+    Arabic in Cmder with 'Courier' font:\newline
+
+    \includegraphics[width=10cm]{images/Cmdercourier.png}\newline
+
+    Arabic in Cmder with 'Kawkab Mono' arabic font:\newline
+
+    \includegraphics[width=10cm]{images/cmdernvim.png}
+
+\\
     \hline
     \centering Cmd \& PowerShell &
     \begin{itemize}
@@ -183,7 +199,10 @@ I have observed various behaviors of Arabic text rendering in different terminal
         \item Configuration is straightforward, with limited options available.
         \item Only monospace fonts are supported.
         \item Bidirectional support is lacking.
-    \end{itemize} \\
+    \end{itemize} 
+    \includegraphics[width=10cm]{images/cmdcourier.png}
+
+\\
     \hline
     Neovim QT &
     \begin{itemize}
@@ -192,6 +211,15 @@ I have observed various behaviors of Arabic text rendering in different terminal
         \item Bidirectional text support is lacking.
         \item Configuration is straightforward, primarily relying on commands for customization.
     \end{itemize}
+
+    Arabic in nvim-qt using 'Courier' font:\newline
+
+    \includegraphics[width=10cm]{images/nvimqt.png}
+
+    Arabic in nvim-qt using 'Droid arabic Kufi' font:\newline
+
+  \includegraphics[width=10cm]{images/droidkufi.png}
+
     \\
     \hline
     mlterm &
@@ -200,6 +228,9 @@ I have observed various behaviors of Arabic text rendering in different terminal
         \item One standout feature of mlterm is its bidirectional text support, allowing seamless integration of English text within Arabic text without any word inversions, unlike other terminals.
         \item Configuration is easy and intuitive. Accessing the configuration menu is as simple as typing 'CTRL' and clicking the right button of the mouse.
     \end{itemize}
+
+    \includegraphics[width=10cm]{images/mlterm.png}
+
     \\
     \hline
     
