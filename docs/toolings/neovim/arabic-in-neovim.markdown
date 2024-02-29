@@ -214,6 +214,7 @@ terminals on Windows. Below is a summary of my findings:
 
 *Table 1: Summary of Observations on Arabic in Windows Terminals*
 
+
 In summary, after examining how different terminals handle Arabic text,
 we found that Neovim QT and mlterm have their strengths and weaknesses.
 Neovim QT displays Arabic text decently with certain fonts but struggles
