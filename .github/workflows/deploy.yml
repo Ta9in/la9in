@@ -27,6 +27,8 @@ jobs:
         run: npm ci
       - name: Build website
         run: npm run build
+      - name: Add CNAME file for custom domain
+        run: echo 'la9in.ta9in.com' > ./build/CNAME
       # Popular action to deploy to GitHub Pages:
       # Docs: https://github.com/peaceiris/actions-gh-pages#%EF%B8%8F-docusaurus
       - name: Deploy to GitHub Pages
