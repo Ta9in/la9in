@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkla_9_in=self.webpackChunkla_9_in||[]).push([[512],{4352:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"\u0627\u0644\u0645\u062f\u0648\u0646\u0629","permalink":"/blog/index","unlisted":false}]}')}}]);
