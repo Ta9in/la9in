@@ -119,6 +119,16 @@ const config = {
         darkTheme: prismThemes.dracula,
       },
     }),
+
+  plugins: [
+    [
+      '@docusaurus/plugin-google-gtag',
+      {
+        trackingID: 'GTAG_CODE',
+        anonymizeIP: true,
+      },
+    ],
+  ],
 };
 
 export default config;

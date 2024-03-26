@@ -27,6 +27,8 @@ jobs:
         run: npm ci
       - name: Build website
         run: npm run build
+        env:
+          GTAG_CODE: ${{secrets.GTAG_CODE}}
       - name: Add CNAME file for custom domain
         run: echo 'la9in.ta9in.com' > ./build/CNAME
       # Popular action to deploy to GitHub Pages:
