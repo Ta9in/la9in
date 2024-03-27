@@ -124,7 +124,7 @@ const config = {
     [
       '@docusaurus/plugin-google-gtag',
       {
-        trackingID: 'GTAG_CODE',
+        trackingID: `${process.env.GTAG_CODE}`,
         anonymizeIP: true,
       },
     ],
